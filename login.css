@@ -1,0 +1,86 @@
+body {
+  background-color: var(--clr-primary);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  color: var(--clr-font-1);
+}
+
+.login-img-box {
+  padding-top: 10rem;
+  z-index: 1000;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-img-box::before {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20rem;
+  height: 20rem;
+  background-color: var(--clr-secondary);
+  z-index: -2;
+}
+
+.login-img {
+  height: 20rem;
+  width: 20rem;
+}
+.login-name {
+  font-size: 3.6rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.login-form-box {
+  width: 50rem;
+
+  background-color: var(--clr-secondary);
+  padding: 5rem;
+  margin-top: 8rem;
+  border-radius: 1rem;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-input {
+  border: none;
+  outline: none;
+  background-color: var(--clr-tertiary);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  width: 70%;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  color: var(--clr-white);
+  font-family: "DinkieBitmap", sans-serif;
+}
+.login-input::placeholder {
+  font-family: "DinkieBitmap", sans-serif;
+  color: var(--clr-font-1);
+  font-size: 1.8rem;
+}
+.login-btn {
+  font-family: "DinkieBitmap", sans-serif;
+  color: var(--clr-font-1);
+  font-size: 1.8rem;
+  border: none;
+  width: 50%;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.login-btn:hover {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}

@@ -6,6 +6,10 @@
   --clr-primary: #d3a7fe;
   --clr-secondary: #c68cff;
   --clr-tertiary: #b870ff;
+
+  --clr-font-1: #4c21d0;
+
+  --clr-white: #fff;
 }
 
 *,
@@ -24,8 +28,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  display: flex;
-  flex-direction: column;
 }
 img {
   max-width: 100%;
