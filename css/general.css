@@ -1,6 +1,6 @@
 @font-face {
   font-family: "DinkieBitmap";
-  src: url(./fonts/DinkieBitmap.ttf);
+  src: url(../fonts/DinkieBitmap.ttf);
 }
 :root {
   --clr-primary: #d3a7fe;
@@ -10,6 +10,7 @@
   --clr-font-1: #4c21d0;
 
   --clr-white: #fff;
+  --clr-red: #f00;
 }
 
 *,

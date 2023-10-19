@@ -3,24 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="general.css" />
-    <link rel="stylesheet" href="login.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/login.css " />
+    <script defer src="/script/script.js"></script>
     <title>Kuromi-Hub</title>
   </head>
   <body>
     <main>
       <div class="container">
         <div class="login-img-box">
-          <img src="/img/login-img.png" alt="olcia-img" class="login-img" />
+          <img src="/img/login-img-1.png" alt="olcia-img" class="login-img" />
           <p class="login-name">olcia</p>
         </div>
         <div class="login-form-box">
           <form action="#" class="login-form">
-            <input type="text" class="login-input" placeholder="username" />
-            <input type="password" class="login-input" placeholder="password" />
-            <input type="button" class="login-btn" value="LOGIN" />
+            <input
+              type="text"
+              class="login-input"
+              placeholder="username"
+              id="username"
+            />
+            <input
+              type="password"
+              class="login-input"
+              placeholder="password"
+              id="password"
+            />
+            <input
+              type="button"
+              class="login-btn"
+              value="LOGIN"
+              id="login-btn"
+            />
           </form>
+          <p id="error-message" class="error-message"></p>
         </div>
       </div>
     </main>
