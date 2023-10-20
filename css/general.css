@@ -3,11 +3,11 @@
   src: url(../fonts/DinkieBitmap.ttf);
 }
 :root {
-  --clr-primary: #d3a7fe;
-  --clr-secondary: #c68cff;
-  --clr-tertiary: #b870ff;
+  --clr-primary: #cfbaff;
+  --clr-secondary: #a38fd2;
+  --clr-tertiary: #7967a6;
 
-  --clr-font-1: #4c21d0;
+  --clr-font-1: #5a0eb6;
 
   --clr-white: #fff;
   --clr-red: #f00;

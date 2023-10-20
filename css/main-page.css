@@ -1,0 +1,19 @@
+body {
+  background-color: var(--clr-tertiary);
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  height: 95vh;
+  background-color: var(--clr-secondary);
+  /* background-image: url(../img/wallpaper.png);
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+.footer-container {
+  max-width: 80%;
+  margin: 0 auto;
+  height: 5vh;
+  background-color: var(--clr-primary);
+}
