@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/general.css" />
     <link rel="stylesheet" href="/css/main-page.css" />
+
     <title>Document</title>
   </head>
   <body>
     <main>
       <div class="container">
         <div class="main-page__grid">
-          <div class="app-container">
+          <div class="app-container" id="app1">
             <img
               src="../img/icons/spotify-icon.png"
               alt="spotify-icon"
@@ -19,15 +20,16 @@
             />
             <p class="app-name">Spotify</p>
           </div>
-          <div class="app-container">
+          <div class="app-container" id="app2">
             <img
               src="../img/icons/photo-album-icon.png"
-              alt="spotify-icon"
+              alt="photo-album-icon"
               class="app-icon"
             />
             <p class="app-name">Photos</p>
           </div>
-          <div class="app-container">
+
+          <div class="app-container" id="app3">
             <img
               src="../img/icons/text-icon.png"
               alt="spotify-icon"
@@ -35,7 +37,7 @@
             />
             <p class="app-name">This year</p>
           </div>
-          <div class="app-container">
+          <div class="app-container" id="app4">
             <img
               src="../img/icons/present-icon.png"
               alt="spotify-icon"
@@ -43,13 +45,13 @@
             />
             <p class="app-name">???</p>
           </div>
-          <div class="app-container">
+          <div class="app-container" id="app5">
             <img
               src="../img/icons/xxx-icon.png"
               alt="spotify-icon"
-              class="app-icon hidden"
+              class="app-icon"
             />
-            <p class="app-name hidden">Nagie zdjecia Olivera</p>
+            <p class="app-name">Nagie zdjecia Olivera</p>
           </div>
         </div>
       </div>
@@ -71,5 +73,26 @@
         <p class="box-name">11.11.2023</p>
       </div>
     </footer>
+    <div class="app-popup" id="popup1">
+      <p>This is the Spotify pop-up content.</p>
+      <button class="closeButton">Close</button>
+    </div>
+    <div class="app-popup" id="popup2">
+      <p>This is the Photos pop-up content.</p>
+      <button class="closeButton">Close</button>
+    </div>
+    <div class="app-popup" id="popup3">
+      <p>This is the Note pop-up content.</p>
+      <button class="closeButton">Close</button>
+    </div>
+    <div class="app-popup" id="popup4">
+      <p>This is the ??? pop-up content.</p>
+      <button class="closeButton">Close</button>
+    </div>
+    <div class="app-popup" id="popup5">
+      <p>This is the XXX pop-up content.</p>
+      <button class="closeButton">Close</button>
+    </div>
   </body>
+  <script src="/script/main-page.js"></script>
 </html>
