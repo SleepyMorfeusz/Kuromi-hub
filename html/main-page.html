@@ -73,26 +73,178 @@
         <p class="box-name">11.11.2023</p>
       </div>
     </footer>
-    <div class="app-popup" id="popup1">
-      <p>This is the Spotify pop-up content.</p>
-      <button class="closeButton">Close</button>
+    <div class="app-popup spotify-popup" id="popup1">
+      <div class="spotify-header">
+        <button class="closeButton spotify-close-btn">X</button>
+      </div>
+      <div class="spotify-box">
+        <div class="playlist-info">
+          <img
+            src="../img/spotify-playlist.png"
+            alt="playlist-img"
+            class="playlist-img"
+          />
+          <p class="playlist-name">You look how rain smells</p>
+        </div>
+        <div class="playlist">
+          <div class="song-box" data-src="../playlist/California Gurls.mp3">
+            <p class="song-number">1</p>
+            <img
+              src="../img/playlist-img/california-girls.png"
+              alt="california-girls"
+              class="song-img"
+            />
+            <div class="title-artist-box">
+              <p class="song-title">California gurls</p>
+              <p class="song-artist">Katy Perry, Snoop Dog</p>
+            </div>
+            <p class="song-duration">3:55</p>
+          </div>
+
+          <div class="song-box" data-src="../playlist/Duvet.mp3">
+            <p class="song-number">2</p>
+            <img
+              src="../img/playlist-img/duvet.png"
+              alt="duvet"
+              class="song-img"
+            />
+            <div class="title-artist-box">
+              <p class="song-title">Duvet (Mówiłem ci że lubie tą piosenke?)</p>
+              <p class="song-artist">Bôa</p>
+            </div>
+            <p class="song-duration">3:24</p>
+          </div>
+
+          <div
+            class="song-box"
+            data-src="../playlist/Runnin' Thru the 7th with My Woadies.mp3"
+          >
+            <p class="song-number">3</p>
+            <img src="../img/playlist-img/sb.png" alt="sb" class="song-img" />
+            <div class="title-artist-box">
+              <p class="song-title">Runnin’ Thru the 7th with My Woadies</p>
+              <p class="song-artist">$uicideboy$, Pouya</p>
+            </div>
+            <p class="song-duration">3:26</p>
+          </div>
+
+          <div
+            class="song-box"
+            data-src="../playlist/My Love Mine All Mine.mp3"
+          >
+            <p class="song-number">4</p>
+            <img
+              src="../img/playlist-img/my-love.png"
+              alt="my-love"
+              class="song-img"
+            />
+            <div class="title-artist-box">
+              <p class="song-title">My Love Mine All Mine</p>
+              <p class="song-artist">Mitski</p>
+            </div>
+            <p class="song-duration">2:18</p>
+          </div>
+
+          <div class="song-box" data-src="../playlist/KICK BACK.mp3">
+            <p class="song-number">5</p>
+            <img
+              src="../img/playlist-img/chainsaw-man.png"
+              alt="chainsaw-man"
+              class="song-img"
+            />
+            <div class="title-artist-box">
+              <p class="song-title">KICK BACK</p>
+              <p class="song-artist">Kenshi Yonezu</p>
+            </div>
+            <p class="song-duration">3:13</p>
+          </div>
+
+          <div class="song-box" data-src="../playlist/K.mp3">
+            <p class="song-number">6</p>
+            <img src="../img/playlist-img/k.png" alt="k" class="song-img" />
+            <div class="title-artist-box">
+              <p class="song-title">K.</p>
+              <p class="song-artist">Cigarettes After Sex</p>
+            </div>
+            <p class="song-duration">5:20</p>
+          </div>
+
+          <div class="song-box" data-src="../playlist/Cry.mp3">
+            <p class="song-number">7</p>
+            <img src="../img/playlist-img/cry.png" alt="cry" class="song-img" />
+            <div class="title-artist-box">
+              <p class="song-title">Cry</p>
+              <p class="song-artist">Cigarettes After Sex</p>
+            </div>
+            <p class="song-duration">4.17</p>
+          </div>
+
+          <div class="song-box" data-src="../playlist/18.mp3">
+            <p class="song-number">8</p>
+            <img
+              src="../img/playlist-img/eight-teen.png"
+              alt="18"
+              class="song-img"
+            />
+            <div class="title-artist-box">
+              <p class="song-title">18</p>
+              <p class="song-artist">cut3y4w</p>
+            </div>
+            <p class="song-duration">2:55</p>
+          </div>
+
+          <div class="song-box" data-src="../playlist/Change.mp3">
+            <p class="song-number">9</p>
+            <img
+              src="../img/playlist-img/change.png"
+              alt="change"
+              class="song-img"
+            />
+            <div class="title-artist-box">
+              <p class="song-title">Change (In the house of Flies)</p>
+              <p class="song-artist">Deftones</p>
+            </div>
+            <p class="song-duration">5:00</p>
+          </div>
+
+          <div
+            class="song-box"
+            data-src="../playlist/Five Nights at Freddy's.mp3"
+          >
+            <p class="song-number">10</p>
+            <img
+              src="../img/playlist-img/fnaf.png"
+              alt="change"
+              class="song-img special"
+            />
+            <div class="title-artist-box">
+              <p class="song-title">Five Night at Freddy's</p>
+              <p class="song-artist">The Newton Brothers</p>
+            </div>
+
+            <p class="song-duration">2.16</p>
+          </div>
+          <audio id="music" preload="auto"></audio>
+        </div>
+      </div>
     </div>
-    <div class="app-popup" id="popup2">
+    <div class="app-popup photo-popup" id="popup2">
       <p>This is the Photos pop-up content.</p>
       <button class="closeButton">Close</button>
     </div>
-    <div class="app-popup" id="popup3">
+    <div class="app-popup note-popup" id="popup3">
       <p>This is the Note pop-up content.</p>
       <button class="closeButton">Close</button>
     </div>
-    <div class="app-popup" id="popup4">
+    <div class="app-popup present-popup" id="popup4">
       <p>This is the ??? pop-up content.</p>
       <button class="closeButton">Close</button>
     </div>
-    <div class="app-popup" id="popup5">
+    <div class="app-popup xxx-popup" id="popup5">
       <p>This is the XXX pop-up content.</p>
       <button class="closeButton">Close</button>
     </div>
   </body>
   <script src="/script/main-page.js"></script>
+  <script src="/script/music-player.js"></script>
 </html>
