@@ -2,6 +2,10 @@ const appContainers = document.querySelectorAll(".app-container");
 const appPopups = document.querySelectorAll(".app-popup");
 const closeButtons = document.querySelectorAll(".closeButton");
 
+appPopups.forEach((popup) => {
+  popup.style.display = "none";
+});
+
 appContainers.forEach((container, index) => {
   container.addEventListener("click", () => {
     appPopups.forEach((popup) => {

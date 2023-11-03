@@ -73,22 +73,14 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border: 2px solid #44007b;
 }
-
-.spotify-popup {
-  background-color: var(--clr-black);
-  width: 140rem;
-  height: 79rem;
-  display: flex;
-  flex-direction: column;
-}
-.spotify-header {
+.app-header {
   display: flex;
   justify-content: flex-end;
-
   background-color: black;
 }
-.spotify-close-btn {
+.app-close-btn {
   border: none;
   outline: none;
   width: 3rem;
@@ -101,9 +93,14 @@ body {
   color: var(--clr-white);
   background-color: transparent;
 }
+.spotify-popup {
+  background-color: var(--clr-black);
+  width: 140rem;
+  height: 80rem;
+}
+
 .spotify-box {
-  width: 134rem;
-  height: 73rem;
+  height: 96.2%;
   background-color: var(--clr-primary);
   margin: 0 auto;
   padding: 2rem 2rem;
@@ -164,4 +161,33 @@ body {
 
 .special {
   margin-left: 0.8rem;
+}
+
+.photo-popup {
+  background-color: var(--clr-primary);
+  width: 140rem;
+  height: 80rem;
+}
+
+.photos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 3rem;
+}
+.gallery-title {
+  font-size: 2.4rem;
+}
+.photos {
+  display: flex;
+  justify-content: space-between;
+}
+.gallery-img {
+  width: 25rem;
+  height: 20rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.gallery-img:hover {
+  scale: 1.05;
 }
