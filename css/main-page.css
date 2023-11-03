@@ -113,19 +113,19 @@ body {
   display: flex;
   align-items: flex-end;
   gap: 2rem;
+  border: 3px solid #44007b;
 }
 .playlist-img {
   height: 100%;
-  border-radius: 3px;
 }
 .playlist-name {
   font-size: 6.4rem;
-  transform: translateY(2.2rem);
 }
 .playlist {
   background-color: var(--clr-tertiary);
   display: flex;
   flex-direction: column;
+  border: 3px solid #44007b;
 }
 .song-box {
   padding: 0.5rem 2rem;
@@ -187,7 +187,25 @@ body {
   height: 20rem;
   cursor: pointer;
   transition: all 0.2s;
+  border: 3px solid #44007b;
 }
 .gallery-img:hover {
   scale: 1.05;
+}
+.present {
+  width: 50rem;
+  height: 25rem;
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  position: relative;
+}
+.code {
+  font-size: 6rem;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  width: 100%;
+  text-align: center;
 }
