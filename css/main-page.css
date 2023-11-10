@@ -209,3 +209,13 @@ body {
   width: 100%;
   text-align: center;
 }
+.note_box {
+  width: 80rem;
+  background-color: var(--clr-black);
+  padding: 2rem 3rem;
+  height: 80rem;
+}
+.note_text {
+  font-size: 2.2rem;
+  color: var(--clr-white);
+}

@@ -3,7 +3,7 @@ document.getElementById("login-btn").addEventListener("click", function () {
   const password = document.getElementById("password").value;
   const errorMessage = document.getElementById("error-message");
 
-  if (username === "nyoomom" && password === "20") {
+  if (username === "nyoom" && password === "moon") {
     window.location.href = "./html/main-page.html";
   } else {
     errorMessage.textContent = "Incorrect username or password";

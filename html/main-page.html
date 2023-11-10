@@ -35,7 +35,7 @@
               alt="spotify-icon"
               class="app-icon"
             />
-            <p class="app-name">This year</p>
+            <p class="app-name">Letter</p>
           </div>
           <div class="app-container" id="app4">
             <img
@@ -285,9 +285,16 @@
         </div>
       </div>
     </div>
-    <div class="app-popup note-popup" id="popup3">
+    <div class="app-popup note-popup" id="popup3" onclick="typeText()">
       <div class="app-header">
-        <button class="closeButton app-close-btn">X</button>
+        <button class="closeButton app-close-btn" onclick="closePopup()">
+          X
+        </button>
+      </div>
+      <div class="note_box">
+        <p class="note_text" id="text-box">
+          <span id="typed-text"></span>
+        </p>
       </div>
     </div>
     <div class="app-popup present-popup" id="popup4">
@@ -306,4 +313,5 @@
   </body>
   <script src="/script/main-page.js"></script>
   <script src="/script/music-player.js"></script>
+  <script src="/script/text.js"></script>
 </html>
